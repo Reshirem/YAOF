@@ -173,3 +173,39 @@ CONFIG_LIBCURL_OPENSSL=y
 # CONFIG_DOCKER_NET_TFTP=y
 # CONFIG_DOCKER_STO_BTRFS=y
 # CONFIG_DOCKER_STO_EXT4=y
+
+### DEV ###
+CONFIG_PACKAGE_make=y
+CONFIG_PACKAGE_git=y
+CONFIG_PACKAGE_git-http=y
+
+### PYTHON ###
+CONFIG_PACKAGE_libpython3=y
+CONFIG_PACKAGE_python3=y
+CONFIG_PACKAGE_python3-asyncio=y
+CONFIG_PACKAGE_python3-base=y
+CONFIG_PACKAGE_python3-cgi=y
+CONFIG_PACKAGE_python3-cgitb=y
+CONFIG_PACKAGE_python3-codecs=y
+CONFIG_PACKAGE_python3-ctypes=y
+CONFIG_PACKAGE_python3-dbm=y
+CONFIG_PACKAGE_python3-decimal=y
+CONFIG_PACKAGE_python3-distutils=y
+CONFIG_PACKAGE_python3-email=y
+CONFIG_PACKAGE_python3-light=y
+CONFIG_PACKAGE_python3-logging=y
+CONFIG_PACKAGE_python3-lzma=y
+CONFIG_PACKAGE_python3-multiprocessing=y
+CONFIG_PACKAGE_python3-ncurses=y
+CONFIG_PACKAGE_python3-openssl=y
+CONFIG_PACKAGE_python3-pydoc=y
+CONFIG_PACKAGE_python3-readline=y
+CONFIG_PACKAGE_python3-sqlite3=y
+CONFIG_PACKAGE_python3-unittest=y
+CONFIG_PACKAGE_python3-urllib=y
+CONFIG_PACKAGE_python3-uuid=y
+CONFIG_PACKAGE_python3-xml=y
+
+### OSPF ###
+CONFIG_PACKAGE_bird1-ipv4=y
+CONFIG_PACKAGE_bird1c-ipv4=y

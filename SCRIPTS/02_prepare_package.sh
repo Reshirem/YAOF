@@ -77,6 +77,9 @@ popd
 wget -P package/libs/openssl/patches/ https://github.com/openssl/openssl/pull/11895.patch
 wget -P package/libs/openssl/patches/ https://github.com/openssl/openssl/pull/14578.patch
 wget -P package/libs/openssl/patches/ https://github.com/openssl/openssl/pull/16575.patch
+# RTOS
+wget -P target/linux/generic/hack-5.10/ https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/5.10/patch-5.10.115-rt67.patch.xz
+xz -d target/linux/generic/hack-5.10/patch-5.10.115-rt67.patch.xz
 
 ### Fullcone-NAT 部分 ###
 # Patch Kernel 以解决 FullCone 冲突

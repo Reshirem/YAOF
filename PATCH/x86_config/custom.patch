@@ -1,0 +1,21 @@
+diff -ruN openwrt/target/linux/x86/config-5.10 openwrt-patched/target/linux/x86/config-5.10
+--- openwrt/target/linux/x86/config-5.10	2022-06-01 15:55:59.000000000 +0800
++++ openwrt-patched/target/linux/x86/config-5.10	2022-06-01 16:08:49.000000000 +0800
+@@ -1,5 +1,5 @@
+ # CONFIG_60XX_WDT is not set
+-# CONFIG_64BIT is not set
++CONFIG_64BIT=y
+ # CONFIG_ACPI is not set
+ # CONFIG_ACQUIRE_WDT is not set
+ # CONFIG_ADVANTECH_WDT is not set
+@@ -42,8 +42,8 @@
+ CONFIG_CONSOLE_TRANSLATIONS=y
+ # CONFIG_CPU5_WDT is not set
+ CONFIG_CPU_FREQ=y
+-CONFIG_CPU_FREQ_DEFAULT_GOV_ONDEMAND=y
+-# CONFIG_CPU_FREQ_DEFAULT_GOV_PERFORMANCE is not set
++# CONFIG_CPU_FREQ_DEFAULT_GOV_ONDEMAND is not set
++CONFIG_CPU_FREQ_DEFAULT_GOV_PERFORMANCE=y
+ CONFIG_CPU_FREQ_GOV_ATTR_SET=y
+ CONFIG_CPU_FREQ_GOV_COMMON=y
+ # CONFIG_CPU_FREQ_GOV_CONSERVATIVE is not set
